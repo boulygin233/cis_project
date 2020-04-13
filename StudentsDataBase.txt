@@ -1,0 +1,9 @@
+create database students;
+
+use students;
+
+create table students_information(ID int, Name varchar(100), GroupN varchar(10), Direction varchar(25), TaskTheme varchar(10), Time varchar(20), Solution varchar(200), Grade int, Decision varchar(10));
+
+insert into students_information values (1, 'Булыгин Артем Константинович', 'Б05-811', 'СП', 'Бизнес-решения', '13.04.20 15:00', 'https://github.com/boulygin233/cis_project', 10, 'Accept');
+
+
